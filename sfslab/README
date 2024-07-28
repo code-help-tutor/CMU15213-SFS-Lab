@@ -1,0 +1,23 @@
+#####################################################################
+# SFS Lab
+#
+# Student Source Files
+######################################################################
+
+This directory contains the files you will need for the SFS lab.
+
+sfs-disk.c
+        This is the file you will be modifying and handing in.
+
+#########################################
+# You shouldn't modify any of these files
+#########################################
+sfs-disk.h
+        This is the header file that exposes an interface for sfs-disk.c.
+
+sfs-tester.c
+        This is the testing interface that we provide. It can run traces
+        or be used interactively once compiled.
+
+Makefile:
+        This is the makefile that builds the driver program.

@@ -1,0 +1,27 @@
+# Build outputs (C)
+*.o
+*.dSYM/
+
+# Build outputs (Python)
+*.py[co]
+__pycache__/
+
+# Build outputs (Lua)
+*.luac
+
+# Editor backup files and other detritus
+.*.sw[a-p]
+.#*
+\#*#
+*~
+
+# Miscellaneous things that shouldn't be checked in
+.DS_Store
+compile_commands.json
+.cache/
+
+# Autolab files
+handin/
+log.txt*
+autograde.tar
+sfslab-handout.tar
